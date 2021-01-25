@@ -53,8 +53,8 @@ p {
 }
 
 .btn:hover {
-    background: #0a0a0a;
-    color: rgb(228, 115, 9);
+    background: rgb(228, 115, 9);
+    color: whitesmoke;
 }
 
 
@@ -91,9 +91,9 @@ p {
 }
 
 #navbar ul li a:hover,
-#navbar ul li a.current {
-    background: black;
-    color: #ee4714;
+#navbar ul li .current {
+    background: rgb(228, 115, 9);
+    color: whitesmoke;
 }
 
 
@@ -188,7 +188,6 @@ p {
 
 #testimonials {
     height: 600px;
-    background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
 
