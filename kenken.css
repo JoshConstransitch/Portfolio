@@ -113,8 +113,6 @@
  
  .pagebtn {
      display: inline-flex;
-     top: 600px;
-     left: 300px;
      font-size: 20px;
      color: #fff;
      background: rgb(8, 11, 179);
@@ -128,5 +126,9 @@
  }
  
  #previous.btn {
-     background-color: burlywood;
+     display: inline-block;
+ }
+ 
+ #next.btn {
+     background-color: blueviolet;
  }
