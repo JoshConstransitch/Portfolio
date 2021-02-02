@@ -116,7 +116,7 @@
      font-size: 20px;
      color: #fff;
      background: rgb(8, 11, 179);
-     padding: 0;
+     padding: 10px;
      border: 1px solid black;
  }
  
@@ -127,8 +127,10 @@
  
  #previous.btn {
      display: inline-block;
+     padding: 20px;
  }
  
  #next.btn {
-     background-color: blueviolet;
+     display: inline;
+     padding: 20px;
  }
