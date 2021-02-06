@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="kenken.css">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <title>KenKen| Welcome</title>
 </head>
 
-<body>
+<body id="body">
     <header>
         <nav id="navbar">
             <div class="container">
@@ -29,7 +29,7 @@
         </nav>
     </header>
     <main>
-        <link rel="stylesheet" href="kenken.css">
+
         <div class="grid">
             <div id="box1" class="grid-item"><span class="promp">8X</span><span class="answer" contenteditable=""></span></div>
             <div id="box2" class="grid-item"><span class="promp"></span><span class="answer" contenteditable=""></span></div>
@@ -49,17 +49,19 @@
             <div id="box16" class="grid-item"><span class="promp"></span><span class="answer" contenteditable=""></span></div>
         </div>
     </main>
-
-    <footer>
-        <div class="pagebtn">
-            <div>
-                <ul>
-                    <li>
-                        <a href="kenken2.html"></a>Next</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </body>
+
+<footer>
+    <nav id="footbar">
+        <div class="container">
+
+            <ul>
+                <li><a class="current" href="games.html">Previous</a></li>
+                <li><a href="kenken2.html">Next</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+
 
 </html>
