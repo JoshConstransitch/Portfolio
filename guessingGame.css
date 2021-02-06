@@ -1,0 +1,46 @@
+/* Navbar */
+
+#navbar {
+    background: rgb(51, 7, 209);
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current {
+    background: rgb(228, 115, 9);
+    color: whitesmoke;
+}
+
+
+/* Game Container */
+
+#game-container {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
